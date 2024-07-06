@@ -213,3 +213,32 @@ a {
     font-size: 22px;
     font-weight: 900px;
 }
+
+.mid-container3 {
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+}
+
+.blue-container {
+    display: flex;
+    background-color: #3C82F6;
+    color: white;
+    padding: 40px 100px;
+    width: 900px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+#blue-container-secondary-text {
+    color: #c6c6c7;
+    font-size: 18px;
+}
+#blue-container-heading-text {
+    gap: 1px;
+    font-family: sans-serif;
+}
+
+#blue-container-btn {
+    border-color: #e5e7eb;
+}
