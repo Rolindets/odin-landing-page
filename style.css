@@ -214,6 +214,7 @@ a {
     font-weight: 900px;
 }
 
+/* MID-CONTAINER3 */
 .mid-container3 {
     display: flex;
     justify-content: center;
@@ -241,4 +242,14 @@ a {
 
 #blue-container-btn {
     border-color: #e5e7eb;
+}
+
+/* FOOTER SECTION */
+.footer {
+    display: flex;
+    justify-content: center;
+    border: 4px solid;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 30px 0px;
 }
