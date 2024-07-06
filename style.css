@@ -15,7 +15,7 @@ a {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 8px 150px;
+    padding: 17px 150px;
 }
 
 .upper-hero {
@@ -65,9 +65,10 @@ a {
 
 .placeholder-container {
     display: flex;
-    flex: 1;
+    flex: -1;
     margin-left: 30px;
     background-color: #6D747D;
+    flex-wrap: wrap;
 }
 
 #placeholder-text{
@@ -76,6 +77,7 @@ a {
     align-items: center;
     font-size: 16px;
     color: #e5e7eb;
+    padding: 0px 100px;
 }
 
 #hero-main-text {
@@ -84,4 +86,130 @@ a {
     font-weight: 900;
 }
 
+/* MID-CONTAINER1 */
 
+.mid-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17px 150px;
+}
+
+#mid-container-main-text {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 50px 0 8px 0px;
+}
+
+#box1 {
+    display: flex;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    width: 140px;
+    height: 140px;
+}
+#box2 {
+    display: flex;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    width: 140px;
+    height: 140px;
+}
+
+#box3 {
+    display: flex;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    width: 140px;
+    height: 140px;
+}
+
+#box4 {
+    display: flex;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+    width: 140px;
+    height: 140px;
+}
+
+.below-box-text {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-align:unset;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+#below-text1 {
+    display: flex;
+    max-width: 140px;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+#below-text2 {
+    display: flex;
+    max-width: 140px;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+#below-text3 {
+    display: flex;
+    max-width: 140px;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+#below-text4 {
+    display: flex;
+    max-width: 140px;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+/* MID-CONTAINER2 */
+
+.mid-container2 {
+    display: flex;
+    justify-content: center;
+    background-color: #E4E7EB;
+    padding: 90px;
+}
+
+.inner-container {
+    display: flex;
+    max-width: 800px;
+    flex-direction: column;
+}
+
+#inspiring-quote {
+    display: flex;
+    text-align: left;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #1f2937;
+    flex-wrap: wrap;
+}
+
+#author-of-quote {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 90px;
+    font-size: 22px;
+    font-weight: 900px;
+}
